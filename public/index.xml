@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>底辺数学徒 blog</title>
+    <link>https://hugoblogapp.com/</link>
+    <description>Recent content on 底辺数学徒 blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 21:22:42 +0900</lastBuildDate>
+    <atom:link href="https://hugoblogapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Path Algebra</title>
+      <link>https://hugoblogapp.com/path-algebra/</link>
+      <pubDate>Wed, 01 May 2024 21:22:42 +0900</pubDate>
+      <guid>https://hugoblogapp.com/path-algebra/</guid>
+      <description>このサイトを作った理由の一つにpdfの保管場所を得るというのがありまして, その第一弾として(多分)openなところで日本語による証明が書かれている文献がないpath algebraの良い定理を紹介する物を書きました。&#xA;自分のメモ用に書いたので, 結構行間や数学的な間違いもあると思いますが(Appendix以外は)代数学の基礎くらいが分かってたら読めると思います.&#xA;実はこのサイトLatexに対応していてpdfで証明したいことをここで書いときます.&#xA;$A$を$A$加群として直既約分解したときその因子が互いに非同型な有限次元$K$-多元環とする. この時あるquiver $Q$とadmissible ideal $I$が存在して; $$A\cong KQ/I$$ となる(但し$K$は代数閉体とする).&#xA;先にちょっとだけ話しておくとquiverというのは所謂グラフの一種でそこから自然に定義される多元環をあるrelationで割ったものとして有限次元$K$-多元環が得られるという結果であってこれはすごいとなる.&#xA;pdfは↓これです https://drive.google.com/file/d/1S3J0INg0bNHD96JFZ-6tcUfXrJayKhyn/preview</description>
+    </item>
+    <item>
+      <title>テストです</title>
+      <link>https://hugoblogapp.com/test/</link>
+      <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
+      <guid>https://hugoblogapp.com/test/</guid>
+      <description>#見出し&#xA;この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.</description>
+    </item>
+  </channel>
+</rss>

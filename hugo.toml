@@ -1,0 +1,5 @@
+baseURL = 'https://hugoblogapp.com'
+languageCode = 'en-us'
+title = '底辺数学徒 blog'
+
+paginate = 4
