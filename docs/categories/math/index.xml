@@ -6,14 +6,21 @@
     <description>Recent content in Math on 底辺数学徒 blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2024 21:22:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2024 14:19:48 +0900</lastBuildDate>
     <atom:link href="https://euleorz.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Path Algebra</title>
       <link>https://euleorz.github.io/path-algebra/</link>
-      <pubDate>Wed, 01 May 2024 21:22:42 +0900</pubDate>
+      <pubDate>Thu, 02 May 2024 14:19:48 +0900</pubDate>
       <guid>https://euleorz.github.io/path-algebra/</guid>
       <description>このサイトを作った理由の一つにpdfの保管場所を得るというのがありまして, その第一弾として(多分)openなところで日本語による証明が書かれている文献がないpath algebraの良い定理を紹介する物を書きました。&#xA;自分のメモ用に書いたので, 結構行間や数学的な間違いもあると思いますが(Appendix以外は)代数学の基礎くらいが分かってたら読めると思います.&#xA;実はこのサイトLatexに対応していてpdfで証明したいことをここで書いときます.&#xA;$A$を$A$加群として直既約分解したときその因子が互いに非同型な有限次元$K$-多元環とする. この時あるquiver $Q$とadmissible ideal $I$が存在して; $$A\cong KQ/I$$ となる(但し$K$は代数閉体とする).&#xA;先にちょっとだけ話しておくとquiverというのは所謂グラフの一種でそこから自然に定義される多元環をあるrelationで割ったものとして有限次元$K$-多元環が得られるという結果であってこれはすごいとなる.&#xA;pdfは↓これです https://drive.google.com/file/d/1S3J0INg0bNHD96JFZ-6tcUfXrJayKhyn/preview</description>
+    </item>
+    <item>
+      <title>準素イデアルについて</title>
+      <link>https://euleorz.github.io/primary_ideal/</link>
+      <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
+      <guid>https://euleorz.github.io/primary_ideal/</guid>
+      <description>準素イデアルの定義ってどんなものを採用してますか?&#xA;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&#xA;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&#xA;所でAssとかも松村とかの定義はあんまり好みじゃなくて.&#xA;$M\in\mathrm{mod}A$とする. この時, $M$のAssociated primeを; $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$&#xA;とした方が好きです.　こうすると加群の埋め込みで統一出来てsimpleみたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていうinj.が取れて合成; $$A/\mathfrak{p}\to N\hookrightarrow M$$ を考えたらいいですね.&#xA;良い証明 ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なのでfiltrationに出てくるprimeは極大で加群的に見たら$A/\mathfrak{p}_i$はsimpleだから組成列になってて分かります.&#xA;準素イデアル分解の1st uni. thm.も加群レベルですぐ見れて;&#xA;$N=\bigcap N_i$をirredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&#xA;irredundantだから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ がinj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&#xA;一応置いておく(これは元を取っている;;) あと短完全列でAssがSuppみたいに振舞うのもpull back取ったらすぐわかります.</description>
     </item>
   </channel>
 </rss>

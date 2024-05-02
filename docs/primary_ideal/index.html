@@ -72,23 +72,39 @@
 <div class="single">
     <div class="singleHead">
         <div class="singleHeadText">
-            <h1 class="singleHeadTitle">テストです</h1>
-            <p class="singleHeadDesc">ここは詳細欄</p>
+            <h1 class="singleHeadTitle">準素イデアルについて</h1>
+            <p class="singleHeadDesc">$A$はネーター環として</p>
             <div class="singleHeadDetail">
                 <img src="/images/ava.png" alt="" class="singleAvatar">
                 <span>
                     
-                    <a href="https://euleorz.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/" class="singleCategory">その他</a>
+                    <a href="https://euleorz.github.io/categories/math/" class="singleCategory">math</a>
                     
                 </span>
             </div>
-            <time>2024-05-01 19:04:51 &#43;0900 JST</time>
+            <time>2024-05-02 13:39:48 &#43;0900 JST</time>
         </div>
-        <img src="/images/fire-icon.png" alt=テストです class="singleHeadImg">
+        <img src="images/prime_fil.PNG" alt=準素イデアルについて class="singleHeadImg">
     </div>
     <div class="singleBottom">
-        <div class="singleContent"><h1 id="見出し">見出し</h1>
-<p>この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.</p>
+        <div class="singleContent"><p>準素イデアルの定義ってどんなものを採用してますか?</p>
+<p>私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.</p>
+<p>なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.</p>
+<p>所でAssとかも松村とかの定義はあんまり好みじゃなくて.</p>
+<p>$M\in\mathrm{mod}A$とする. この時, $M$の<strong>Associated prime</strong>を;
+$$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$</p>
+<p>とした方が好きです.　こうすると加群の埋め込みで統一出来てsimpleみたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていうinj.が取れて合成;
+$$A/\mathfrak{p}\to N\hookrightarrow M$$
+を考えたらいいですね.</p>
+<h2 id="良い証明">良い証明</h2>
+<p><img src="/images/prime_fil.PNG" alt="description of the image"></p>
+<p>ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なのでfiltrationに出てくるprimeは極大で加群的に見たら$A/\mathfrak{p}_i$はsimpleだから組成列になってて分かります.</p>
+<p>準素イデアル分解の1st uni. thm.も加群レベルですぐ見れて;</p>
+<p>$N=\bigcap N_i$をirredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
+<p>irredundantだから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ がinj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
+<p>一応置いておく(これは元を取っている;;)
+<img src="/images/lemma_primary.PNG" alt="description of the image"></p>
+<p>あと短完全列でAssがSuppみたいに振舞うのもpull back取ったらすぐわかります.</p>
 </div>
         <div class="singleRightBar"><div class="rightBar">
     <h1 class=".rightBarImg">最近書いたpdf</h1>
