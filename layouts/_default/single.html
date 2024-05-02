@@ -16,18 +16,18 @@
             <h1 class="singleHeadTitle">{{.Title}}</h1>
             <p class="singleHeadDesc">{{.Params.description}}</p>
             <div class="singleHeadDetail">
-                <img src={{.Params.avatar}} alt="" class="singleAvatar">
+                <img src="{{.Params.avatar}}" alt="" class="singleAvatar">
                 <span>{{range(.GetTerms "authors")}}
-                    <a href={{.Permalink}}>{{.Name}}</a>
+                    <a href="{{.Permalink}}">{{.Name}}</a>
                     {{end}}
                     {{range(.GetTerms "categories")}}
-                    <a href={{.Permalink}} class="singleCategory">{{.Name}}</a>
+                    <a href="{{.Permalink}}" class="singleCategory">{{.Name}}</a>
                     {{end}}
                 </span>
             </div>
             <time>{{.Date}}</time>
         </div>
-        <img src={{.Params.imageBig}} alt={{.Title}} class="singleHeadImg">
+        <img src="{{.Params.imageBig}}" alt={{.Title}} class="singleHeadImg">
     </div>
     <div class="singleBottom">
         <div class="singleContent">{{.Content}}</div>
