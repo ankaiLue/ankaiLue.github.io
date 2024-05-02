@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://euleorz.com/categories/</loc>
+    <loc>https://euleorz.github.io/website/categories/</loc>
     <lastmod>2024-05-01T21:22:42+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.com/categories/math/</loc>
+    <loc>https://euleorz.github.io/website/categories/math/</loc>
     <lastmod>2024-05-01T21:22:42+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.com/path-algebra/</loc>
+    <loc>https://euleorz.github.io/website/path-algebra/</loc>
     <lastmod>2024-05-01T21:22:42+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.com/</loc>
+    <loc>https://euleorz.github.io/website/</loc>
     <lastmod>2024-05-01T21:22:42+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.com/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</loc>
+    <loc>https://euleorz.github.io/website/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</loc>
     <lastmod>2024-05-01T19:04:51+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.com/test/</loc>
+    <loc>https://euleorz.github.io/website/test/</loc>
     <lastmod>2024-05-01T19:04:51+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.com/tags/</loc>
+    <loc>https://euleorz.github.io/website/tags/</loc>
   </url>
 </urlset>

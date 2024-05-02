@@ -1,4 +1,4 @@
-baseURL = 'https://euleorz.com'
+baseURL = 'https://euleorz.github.io/website'
 publishDir = "docs"
 languageCode = 'en-us'
 title = '底辺数学徒 blog'

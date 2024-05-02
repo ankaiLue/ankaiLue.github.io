@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>その他 on 底辺数学徒 blog</title>
-    <link>https://euleorz.com/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+    <link>https://euleorz.github.io/website/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
     <description>Recent content in その他 on 底辺数学徒 blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2024 19:04:51 +0900</lastBuildDate>
-    <atom:link href="https://euleorz.com/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://euleorz.github.io/website/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>テストです</title>
-      <link>https://euleorz.com/test/</link>
+      <link>https://euleorz.github.io/website/test/</link>
       <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
-      <guid>https://euleorz.com/test/</guid>
+      <guid>https://euleorz.github.io/website/test/</guid>
       <description>#見出し&#xA;この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.</description>
     </item>
   </channel>
