@@ -1,0 +1,6 @@
+baseURL = 'https://euleorz.github.io/'
+languageCode = 'en-us'
+title = '底辺数学徒 blog'
+
+paginate = 4
+themesDir = "themes"
