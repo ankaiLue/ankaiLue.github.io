@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+<div class="navbar">
+    <div class="logo">
+        <a href="/">底辺数学徒 blog</a>
+    </div>
+    <div class="links">
+        <div class="toggle">
+            <svg
+        width="20px"
+        height="20px"
+        viewBox="-0.14 0 20.03 20.03"
+        fill="#000000"
+      >
+        <g id="moon-alt" transform="translate(-2.25 -2)">
+          <path
+            id="secondary"
+            fill="#ffe01b"
+            d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"
+          ></path>
+        </g>
+      </svg>
+      <div class="ball" ></div>
+      <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+        <g id="sun" transform="translate(-2 -2)">
+          <circle
+            id="secondary"
+            fill="#ffe01b"
+            cx="4"
+            cy="4"
+            r="4"
+            transform="translate(8 8)"
+          ></circle>
+          <path
+            id="primary"
+            d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+            fill="none"
+            stroke="#ffe01b"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+        </g>
+      </svg>
+        </div>
+        <a href="/">Homepage</a>
+        <a href="/categories">Categories</a>
+        
+    </div>
+</div>
+        
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+ tex2jax: {
+ inlineMath: [['$', '$'] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+ }
+ });
+</script>
+
+<div class="single">
+    <div class="singleHead">
+        <div class="singleHeadText">
+            <h1 class="singleHeadTitle">２次体の整数環</h1>
+            <p class="singleHeadDesc">mod4による条件</p>
+            <div class="singleHeadDetail">
+                <img src="/images/ava.png" alt="" class="singleAvatar">
+                <span>
+                    
+                    <a href="https://euleorz.github.io/categories/general/" class="singleCategory">general</a>
+                    
+                </span>
+            </div>
+            <time>2024-05-04 12:16:48 &#43;0900 JST</time>
+        </div>
+        <img src="/images/kfuzEeP.png" alt=２次体の整数環 class="singleHeadImg">
+    </div>
+    <div class="singleBottom">
+        <div class="singleContent"><p>二次体の整数環って$\mathbb{Z}[\sqrt{d}]$になるか$\mathbb{Z}[\frac{1+\sqrt{d}}{2}]$になるわけですが, この条件についてラフに証明します. とりあえず申し訳程度の例として, $\mathbb{Q}[\sqrt{5}]$の整数環は$\mathbb{Z}[\frac{1+\sqrt{d}}{2}]$, $\mathbb{Q}[i]$にたいしては$\mathbb{Z}[i]$になります(所謂ガウス整数環).</p>
+<h2 id="thm">thm.</h2>
+<p>$\mathcal{O}_K$を$K=\mathbb{Q}[\sqrt{d}]$ の整数環とする(但し$d$は閉包因子を含まない有理整数), この時 $d\equiv 2,3\ (\mathrm{mod}\ 4)$ ならば $\mathcal{O}_K=\mathbb{Z}[\sqrt{d}]$. また$d\equiv 1\ (\mathrm{mod}\ 4)$ ならば $\mathcal{O}_K=\lbrace\frac{u+v\sqrt{d}}{2}\mid u,v\in\mathbb{Z}, u\equiv v\ (\mathrm{mod}\ 2)\rbrace$となる.</p>
+<h3 id="proof">proof.</h3>
+<p>$\alpha=a+b\sqrt{d}\ (a,b\in \mathbb{Q})$ に対して $u=2a,\ v=2b$ とすると, $\alpha\in \mathcal{O}_K$ ならば $u= \mathrm{Tr}(\alpha)\in \mathbb{Z}$ で $u^2-dv^2=4(a^2-db^2)=4\mathrm{N}(\alpha)\in 4\mathbb{Z}$ でさらに, $dv^2 = u^2-(u^2-dv^2)\in\mathbb{Z}$. ここから $v$ の既約分数表示とかでごちゃごちゃやると $v=\alpha\in\mathbb{Z}$. 逆もすぐわかるので 「$\alpha\in \mathcal{O}_K\Leftrightarrow u,v\in\mathbb{Z}$かつ$u^2-dv^2\equiv0\ (\mathrm{mod}\ 4)$」</p>
+<p>$d\equiv 1\ (\mathrm{mod}\ 4)$ の時,
+$u^2-dv^2\equiv0\ (\mathrm{mod}\ 4)\Leftrightarrow u^2-v^2\equiv0\ (\mathrm{mod}\ 4)\Leftrightarrow u^2\equiv v^2\ (\mathrm{mod}\ 4)\Leftrightarrow u\equiv v\ (\mathrm{mod}\ 2)$. 整理しておくと 「$d\equiv 1\ (\mathrm{mod}\ 4)\Leftrightarrow u\equiv v\ (\mathrm{mod}\ 2)$」</p>
+<p>$d\equiv 2\ (\mathrm{mod}\ 4)$ の時, $u^2\equiv 2v^2\ (\mathrm{mod}\ 2)$</p>
+<p>だから</p>
+<p>$2|u^2$$\Rightarrow$$2|u$$\Rightarrow$$4|u^2$$\Rightarrow$$4|2v^2$$\Rightarrow$$2|v$</p>
+<p>よって$u\equiv v\equiv 0\ (\mathrm{mod}\ 2)$</p>
+<p>$d\equiv 3\ (\mathrm{mod}\ 4)$ の時, $u^2\equiv 3v^2\ (\mathrm{mod}\ 2)$</p>
+<p>だから$v$が奇数ならば</p>
+<p>$v\equiv 1\ (\mathrm{mod}\ 2)$ で $v^2\equiv1\ (\mathrm{mod}\ 4)$で$u^2\equiv3\ (\mathrm{mod}\ 4)$</p>
+<p>だから矛盾, よって $v,u$ は偶数で $u\equiv v\equiv 0\ (\mathrm{mod}\ 2)$</p>
+<p>逆は明らかなので整理しておくと「$d\equiv 2,3\ (\mathrm{mod}\ 4)\Leftrightarrow u\equiv v\equiv 0\ (\mathrm{mod}\ 2)$」</p>
+<p>以上の議論に依り題意はあきらか.</p>
+<h3 id="cor">Cor.</h3>
+<p>上をもうちょっとに詰めるとintegral closureがどうなるかの条件が$\mathrm{mod}4$による表情で与えられるわけですね.</p>
+</div>
+        <div class="singleRightBar"><div class="rightBar">
+    <h1 class=".rightBarImg">最近書いたpdf</h1>
+    <iframe src="https://drive.google.com/file/d/1S3J0INg0bNHD96JFZ-6tcUfXrJayKhyn/preview" width="400" height="600"></iframe>
+</div></div>
+    </div>
+    
+</div>
+
+        <div class="footer">
+    <div class="footerLinks">
+        <a href="/">底辺数学徒 dev</a> |
+        <a href="/categories">categories</a> |
+        <a href="/sitemap.xml">sitemap</a>
+    </div>
+    <div class="social">
+    <a href="https://twitter.com/pf07c">
+        <svg width="64px" height="64px" viewBox="-0.8 -0.8 21.60 21.60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>twitter [#1a86ea]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="#4f81f8"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#1a86ea]"> </path> </g> </g> </g> </g></svg>
+    </a>
+    </div>
+</div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
