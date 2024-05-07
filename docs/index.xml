@@ -6,8 +6,15 @@
     <description>Recent content on 底辺数学徒 blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2024 12:16:48 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2024 19:44:26 +0900</lastBuildDate>
     <atom:link href="https://euleorz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>圏上のジャコブソン根基</title>
+      <link>https://euleorz.github.io/radical_of_category/</link>
+      <pubDate>Tue, 07 May 2024 19:44:26 +0900</pubDate>
+      <guid>https://euleorz.github.io/radical_of_category/</guid>
+      <description>ジャコブソン根基, まあつまりradicalっていいですよねとっても.&#xA;なんで一般に加法圏上にもそれを定義したいとなるわけです. というか一般に加法圏でradicalを定義して, 環とかを自然に一点圏と見做してradicalを見ればいいわけです. まあ冗談はともかく見てみましょう.&#xA;一般の環$A$に対して;&#xA;$$x\in\mathrm{rad}A\Leftrightarrow \forall y\in A,\ 1-xy\colon\text{unit}$$&#xA;であることを想うと自然な一般化ですね.&#xA;一応簡単な命題だけ見ておく. 画像では$\mathrm{mod}A$と書いてるが一般にクルルシュミット圏という奴で成り立つことを注意しておく.</description>
+    </item>
     <item>
       <title>２次体の整数環</title>
       <link>https://euleorz.github.io/ring_of_integers/</link>
