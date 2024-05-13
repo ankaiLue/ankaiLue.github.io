@@ -6,8 +6,15 @@
     <description>Recent content on 底辺数学徒 blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2024 12:16:48 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 15:40:18 +0900</lastBuildDate>
     <atom:link href="https://euleorz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>元を取らない蛇の補題</title>
+      <link>https://euleorz.github.io/5_13/</link>
+      <pubDate>Mon, 13 May 2024 15:40:18 +0900</pubDate>
+      <guid>https://euleorz.github.io/5_13/</guid>
+      <description>特にいうことはないです, アーベル圏上での蛇の補題をミッチェルとか使わずに証明しました.&#xA;↓pdfです. https://drive.google.com/file/d/1SquVUULtbJHYtsgWa4rkY4m4fd3_cGch/view?usp=sharing</description>
+    </item>
     <item>
       <title>２次体の整数環</title>
       <link>https://euleorz.github.io/ring_of_integers/</link>

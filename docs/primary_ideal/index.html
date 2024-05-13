@@ -58,18 +58,26 @@
     </div>
 </div>
         
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['$$', '$$']
+        ]
+      }      
+    };
+  </script>
+  <script>window.MathJax = {
+    loader: {load: ['[tex]/amscd']},
+    tex: {packages: {'[+]': ['amscd']}}
+  };</script>
+  
 
 <div class="single">
+    
     <div class="singleHead">
         <div class="singleHeadText">
             <h1 class="singleHeadTitle">準素イデアルについて</h1>
@@ -110,8 +118,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
     <h1 class=".rightBarImg">最近書いたpdf</h1>
     <iframe src="https://drive.google.com/file/d/1S3J0INg0bNHD96JFZ-6tcUfXrJayKhyn/preview" width="400" height="600"></iframe>
 </div></div>
-    </div>
-    
+    </div>    
 </div>
 
         <div class="footer">

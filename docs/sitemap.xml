@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://euleorz.github.io/categories/</loc>
+    <lastmod>2024-05-13T15:40:18+09:00</lastmod>
+  </url><url>
+    <loc>https://euleorz.github.io/categories/math/</loc>
+    <lastmod>2024-05-13T15:40:18+09:00</lastmod>
+  </url><url>
+    <loc>https://euleorz.github.io/categories/pdf/</loc>
+    <lastmod>2024-05-13T15:40:18+09:00</lastmod>
+  </url><url>
+    <loc>https://euleorz.github.io/5_13/</loc>
+    <lastmod>2024-05-13T15:40:18+09:00</lastmod>
+  </url><url>
+    <loc>https://euleorz.github.io/</loc>
+    <lastmod>2024-05-13T15:40:18+09:00</lastmod>
+  </url><url>
     <loc>https://euleorz.github.io/ring_of_integers/</loc>
     <lastmod>2024-05-04T12:16:48+09:00</lastmod>
   </url><url>
-    <loc>https://euleorz.github.io/categories/</loc>
-    <lastmod>2024-05-04T12:16:48+09:00</lastmod>
-  </url><url>
-    <loc>https://euleorz.github.io/categories/math/</loc>
-    <lastmod>2024-05-04T12:16:48+09:00</lastmod>
-  </url><url>
-    <loc>https://euleorz.github.io/</loc>
-    <lastmod>2024-05-04T12:16:48+09:00</lastmod>
-  </url><url>
     <loc>https://euleorz.github.io/path-algebra/</loc>
-    <lastmod>2024-05-02T14:19:48+09:00</lastmod>
-  </url><url>
-    <loc>https://euleorz.github.io/categories/pdf/</loc>
     <lastmod>2024-05-02T14:19:48+09:00</lastmod>
   </url><url>
     <loc>https://euleorz.github.io/primary_ideal/</loc>
