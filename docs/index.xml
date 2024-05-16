@@ -13,7 +13,7 @@
       <link>https://euleorz.github.io/5_14/</link>
       <pubDate>Tue, 14 May 2024 00:30:11 +0900</pubDate>
       <guid>https://euleorz.github.io/5_14/</guid>
-      <description>多分成り立つをなくそう 多分そうだろうなーと思ってたASSの行間を通して何度目かの素直に先ず手を動かせという気持ちが強くなった. そりゃそうっぽいけどめんどくさいなってなったときに手を動かそう私. 一応置いとく;</description>
+      <description>多分成り立つをなくそう 多分そうだろうなーと思ってたASSの行間を通して何度目かの素直に先ず手を動かせという気持ちが強くなった. そりゃそうっぽいけどめんどくさいなってなったときに手を動かそう私, やってわかるならやってわかるからやってわからなかったらそこで初めて考えればいい. 一応置いとく;</description>
     </item>
     <item>
       <title>元を取らない蛇の補題</title>
@@ -34,7 +34,7 @@
       <link>https://euleorz.github.io/path-algebra/</link>
       <pubDate>Thu, 02 May 2024 14:19:48 +0900</pubDate>
       <guid>https://euleorz.github.io/path-algebra/</guid>
-      <description>このサイトを作った理由の一つにpdfの保管場所を得るというのがありまして, その第一弾として(多分)openなところで日本語による証明が書かれている文献がないpath algebraの良い定理を紹介する物を書きました。&#xA;自分のメモ用に書いたので, 結構行間や数学的な間違いもあると思いますが(Appendix以外は)代数学の基礎くらいが分かってたら読めると思います.&#xA;実はこのサイトLatexに対応していてpdfで証明したいことをここで書いときます.&#xA;$A$を$A$加群として直既約分解したときその因子が互いに非同型な有限次元$K$-多元環とする. この時あるquiver $Q$とadmissible ideal $I$が存在して; $$A\cong KQ/I$$ となる(但し$K$は代数閉体とする).&#xA;先にちょっとだけ話しておくとquiverというのは所謂グラフの一種でそこから自然に定義される多元環をあるrelationで割ったものとして有限次元$K$-多元環が得られるという結果であってこれはすごいとなる.&#xA;pdfは↓これです https://drive.google.com/file/d/1S3J0INg0bNHD96JFZ-6tcUfXrJayKhyn/preview</description>
+      <description>このサイトを作った理由の一つにpdfの保管場所を得るというのがありまして, その第一弾として(多分)openなところで日本語による証明が書かれている文献がないpath algebraの良い定理を紹介する物を書きました。&#xA;自分のメモ用に書いたので, 結構行間や数学的な間違いもあると思いますが(Appendix以外は)代数学の基礎くらいが分かってたら読めると思います.&#xA;実はこのサイトLatexに対応していてpdfで証明したいことをここで書いときます.&#xA;$A$を$A$加群として直既約分解したときその因子が互いに非同型な有限次元$K$-多元環とする. この時あるquiver $Q$とadmissible ideal $I$が存在して; $$A\cong KQ/I$$ となる(但し$K$は代数閉体とする).&#xA;先にちょっとだけ話しておくとquiverというのは所謂グラフの一種でそこから自然に定義される多元環をあるrelationで割ったものとして有限次元$K$-多元環が得られるという結果であってこれはすごいとなる.&#xA;pdfは↓これです https://drive.google.com/file/d/1dRLN-jYk0yOopFQUYLqLMk9EbpRnyvtC/view?usp=sharing</description>
     </item>
     <item>
       <title>準素イデアルについて</title>
