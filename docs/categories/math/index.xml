@@ -6,28 +6,21 @@
     <description>Recent content in Math on 底辺数学徒 blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 May 2024 15:40:18 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 00:57:27 +0900</lastBuildDate>
     <atom:link href="https://euleorz.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>元を取らない蛇の補題</title>
-      <link>https://euleorz.github.io/5_13/</link>
-      <pubDate>Mon, 13 May 2024 15:40:18 +0900</pubDate>
-      <guid>https://euleorz.github.io/5_13/</guid>
-      <description>特にいうことはないです, アーベル圏上での蛇の補題をミッチェルとか使わずに証明しました.&#xA;↓pdfです. https://drive.google.com/file/d/1SquVUULtbJHYtsgWa4rkY4m4fd3_cGch/view?usp=sharing</description>
+      <title>良い部分圏の濃度</title>
+      <link>https://euleorz.github.io/2024_11_24/</link>
+      <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
+      <guid>https://euleorz.github.io/2024_11_24/</guid>
+      <description>多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である. そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&#xA;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&#xA;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがright $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&#xA;ここで次の記法を用いる.&#xA;$wideA\colon$ wide subcategoryの集まり.&#xA;$torsA\colon$ torsion classの集まり.&#xA;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategoryの集まり.&#xA;$f$-$torsA\subset torsA\colon$ functorially finiteなtorsion classの集まり.&#xA;この時次が成り立つ:&#xA;$$|wideΛ| \le |torsΛ|$$&#xA;$$|f\text{-}torsΛ| \le |f\text{-}wideΛ|$$&#xA;$$f\text{-}torsΛ \leftrightarrow \lbrace W\in f\text{-}wideΛ \mid filt(gen(W))\in f\text{-}torsΛ\rbrace $$&#xA;参考文献: F.</description>
     </item>
     <item>
-      <title>２次体の整数環</title>
-      <link>https://euleorz.github.io/ring_of_integers/</link>
-      <pubDate>Sat, 04 May 2024 12:16:48 +0900</pubDate>
-      <guid>https://euleorz.github.io/ring_of_integers/</guid>
-      <description>二次体の整数環って$\mathbb{Z}[\sqrt{d}]$になるか$\mathbb{Z}[\frac{1+\sqrt{d}}{2}]$になるわけですが, この条件についてラフに証明します. とりあえず申し訳程度の例として, $\mathbb{Q}[\sqrt{5}]$の整数環は$\mathbb{Z}[\frac{1+\sqrt{5}}{2}]$, $\mathbb{Q}[i]$にたいしては$\mathbb{Z}[i]$になります(所謂ガウス整数環).&#xA;thm. $\mathcal{O}_K$を$K=\mathbb{Q}[\sqrt{d}]$ の整数環とする(但し$d$は閉包因子を含まない有理整数), この時 $d\equiv 2,3\ (\mathrm{mod}\ 4)$ ならば $\mathcal{O}_K=\mathbb{Z}[\sqrt{d}]$. また$d\equiv 1\ (\mathrm{mod}\ 4)$ ならば $\mathcal{O}_K=\lbrace\frac{u+v\sqrt{d}}{2}\mid u,v\in\mathbb{Z}, u\equiv v\ (\mathrm{mod}\ 2)\rbrace$となる.&#xA;proof. $\alpha=a+b\sqrt{d}\ (a,b\in \mathbb{Q})$ に対して $u=2a,\ v=2b$ とすると, $\alpha\in \mathcal{O}_K$ ならば $u= \mathrm{Tr}(\alpha)\in \mathbb{Z}$ で $u^2-dv^2=4(a^2-db^2)=4\mathrm{N}(\alpha)\in 4\mathbb{Z}$ でさらに, $dv^2 = u^2-(u^2-dv^2)\in\mathbb{Z}$. ここから $v$ の既約分数表示とかでごちゃごちゃやると $v\in\mathbb{Z}$. 逆もすぐわかるので 「$\alpha\in \mathcal{O}_K\Leftrightarrow u,v\in\mathbb{Z}$かつ$u^2-dv^2\equiv0\ (\mathrm{mod}\ 4)$」&#xA;$d\equiv 1\ (\mathrm{mod}\ 4)$ の時, $u^2-dv^2\equiv0\ (\mathrm{mod}\ 4)\Leftrightarrow u^2-v^2\equiv0\ (\mathrm{mod}\ 4)\Leftrightarrow u^2\equiv v^2\ (\mathrm{mod}\ 4)\Leftrightarrow u\equiv v\ (\mathrm{mod}\ 2)$.</description>
-    </item>
-    <item>
-      <title>Path Algebra</title>
-      <link>https://euleorz.github.io/path-algebra/</link>
-      <pubDate>Thu, 02 May 2024 14:19:48 +0900</pubDate>
-      <guid>https://euleorz.github.io/path-algebra/</guid>
-      <description>このサイトを作った理由の一つにpdfの保管場所を得るというのがありまして, その第一弾として(多分)openなところで日本語による証明が書かれている文献がないpath algebraの良い定理を紹介する物を書きました。&#xA;自分のメモ用に書いたので, 結構行間や数学的な間違いもあると思いますが(Appendix以外は)代数学の基礎くらいが分かってたら読めると思います.&#xA;実はこのサイトLatexに対応していてpdfで証明したいことをここで書いときます.&#xA;$A$を$A$加群として直既約分解したときその因子が互いに非同型な有限次元$K$-多元環とする. この時あるquiver $Q$とadmissible ideal $I$が存在して; $$A\cong KQ/I$$ となる(但し$K$は代数閉体とする).&#xA;先にちょっとだけ話しておくとquiverというのは所謂グラフの一種でそこから自然に定義される多元環をあるrelationで割ったものとして有限次元$K$-多元環が得られるという結果であってこれはすごいとなる.&#xA;pdfは↓これです https://drive.google.com/file/d/1dRLN-jYk0yOopFQUYLqLMk9EbpRnyvtC/view?usp=sharing</description>
+      <title>名大多元数理過去問</title>
+      <link>https://euleorz.github.io/2023_1_3/</link>
+      <pubDate>Fri, 15 Nov 2024 23:37:26 +0900</pubDate>
+      <guid>https://euleorz.github.io/2023_1_3/</guid>
+      <description></description>
     </item>
     <item>
       <title>準素イデアルについて</title>
