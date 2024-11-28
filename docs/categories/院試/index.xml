@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>院試 on tiltingLife blog</title>
-    <link>https://ankailue.github.io/categories/%E9%99%A2%E8%A9%A6/</link>
+    <link>http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/</link>
     <description>Recent content in 院試 on tiltingLife blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Nov 2024 20:50:43 +0900</lastBuildDate>
-    <atom:link href="https://ankailue.github.io/categories/%E9%99%A2%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2020_b_123/</link>
+      <link>http://localhost:1313/2020_b_123/</link>
       <pubDate>Wed, 27 Nov 2024 20:50:43 +0900</pubDate>
-      <guid>https://ankailue.github.io/2020_b_123/</guid>
+      <guid>http://localhost:1313/2020_b_123/</guid>
       <description>2020年午後の部を最後の位相空間論以外やった、一番の自明な議論と留数の逆経路の計算は(清書がめんどくさかったので)省いた. 微分と積分の交換条件を確認できるサイトを添付しておく:&#xA;[https://mathlandscape.com/int-diff-interchange/]</description>
     </item>
     <item>
       <title>東大数理科学過去問</title>
-      <link>https://ankailue.github.io/r2_12/</link>
+      <link>http://localhost:1313/r2_12/</link>
       <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
-      <guid>https://ankailue.github.io/r2_12/</guid>
+      <guid>http://localhost:1313/r2_12/</guid>
       <description>東大院試の過去問に関しては完全版↓&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;がネットに転がっているので以降追加することは(多分)ないであろう.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2015_1/</link>
+      <link>http://localhost:1313/2015_1/</link>
       <pubDate>Tue, 26 Nov 2024 18:31:48 +0900</pubDate>
-      <guid>https://ankailue.github.io/2015_1/</guid>
+      <guid>http://localhost:1313/2015_1/</guid>
       <description>表現行列と固有値に関する問題である.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2014_3_1/</link>
+      <link>http://localhost:1313/2014_3_1/</link>
       <pubDate>Sun, 24 Nov 2024 09:45:04 +0900</pubDate>
-      <guid>https://ankailue.github.io/2014_3_1/</guid>
+      <guid>http://localhost:1313/2014_3_1/</guid>
       <description>極値判定法の最も簡単な形の例である.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2023_1_3/</link>
+      <link>http://localhost:1313/2023_1_3/</link>
       <pubDate>Fri, 15 Nov 2024 23:37:26 +0900</pubDate>
-      <guid>https://ankailue.github.io/2023_1_3/</guid>
+      <guid>http://localhost:1313/2023_1_3/</guid>
       <description></description>
     </item>
   </channel>
