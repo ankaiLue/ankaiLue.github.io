@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on tiltingLife blog</title>
-    <link>https://ankailue.github.io/categories/general/</link>
+    <link>http://localhost:1313/categories/general/</link>
     <description>Recent content in General on tiltingLife blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Nov 2024 18:38:08 +0900</lastBuildDate>
-    <atom:link href="https://ankailue.github.io/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>東大数理科学過去問</title>
-      <link>https://ankailue.github.io/r2_12/</link>
+      <link>http://localhost:1313/r2_12/</link>
       <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
-      <guid>https://ankailue.github.io/r2_12/</guid>
+      <guid>http://localhost:1313/r2_12/</guid>
       <description>東大院試の過去問に関しては完全版↓&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;がネットに転がっているので以降追加することは(多分)ないであろう.</description>
     </item>
   </channel>

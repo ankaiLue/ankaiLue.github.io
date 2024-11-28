@@ -44,6 +44,7 @@ a{
     position: sticky;
     top: 0;
     background-color: var(--bg);
+    
 }
 
 .logo{
@@ -252,9 +253,16 @@ a{
     margin-top: 50px;
 }
 
+.singleBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+}
+
 .singleContent{
-    flex: 3;
-    font-size: 20px;
+    flex: 2;
+    font-size: 2px;
     line-height: 32px;
 
 }
@@ -289,7 +297,8 @@ a{
 .rightBar{
     position: sticky;
     top: 100px;
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
 .rightBarImg{
@@ -299,6 +308,8 @@ a{
 }
 
 /*RIGHTBAR*/
+
+
 
 
 @media (max-width: 1536px) {

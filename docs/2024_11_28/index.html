@@ -81,27 +81,42 @@
     
     <div class="singleHead">
         <div class="singleHeadText">
-            <h1 class="singleHeadTitle">このサイトについて</h1>
-            <p class="singleHeadDesc">このサイトは「Hugo」で作りました</p>
+            <h1 class="singleHeadTitle">relationship between projecives and simples</h1>
+            <p class="singleHeadDesc"></p>
             <div class="singleHeadDetail">
                 <img src="/images/ava.png" alt="" class="singleAvatar">
                 <span>
                     
-                    <a href="https://ankailue.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/" class="singleCategory">その他</a>
+                    <a href="https://ankailue.github.io/categories/math/" class="singleCategory">math</a>
+                    
+                    <a href="https://ankailue.github.io/categories/algebra/" class="singleCategory">algebra</a>
                     
                 </span>
             </div>
-            <time>2024-05-02 13:17:18 &#43;0900 JST</time>
+            <time>2024-11-28 12:55:22 &#43;0900 JST</time>
         </div>
-        <img src="/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png" alt=このサイトについて class="singleHeadImg">
+        <img src="/images/ASS_3.3.PNG" alt=relationship&#32;between&#32;projecives&#32;and&#32;simples class="singleHeadImg">
     </div>
     <div class="singleBottom">
-        <div class="singleContent"><p>個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのとGO言語を触ったことがあったのでhugoというツールを使いました。</p>
-<p><a href="https://gohugo.io/">公式ウェブサイト</a></p>
-<p>Headless CMSとか使ってジャムスタックなサイトつくろうかな～とか思って, ReactとContentfulで結構なところまで実装したのでやる気が戻ったらサイト移行の可能性があります(Hugo + Headless CMSみたいな選択肢もあります).</p>
-<p>Static SiteもStatic Siteで良さがあるのでしばらくは運用していこうと思いますが&hellip;</p>
-<p>あと, Markdown記法でこの記事書いているのですが, Markdown浅すぎてあんま活用できてないです.</p>
-<p>というかいま記事書いてて思ったんですけど, 反映早くて滅茶苦茶いいっすね.</p>
+        <div class="singleContent"><p>有限次元多元環の表現論において常識である:</p>
+<p>$$\lbrace \text{projective module}\rbrace\leftrightarrow\lbrace \text{simple module}\rbrace $$</p>
+<p>を説明する( $A$ をf.d. 多元環とする). 以降 $M\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする.</p>
+<p>余談だが極大部分加群によるquotientがsimpleになることから:</p>
+<p>$$
+radM=\lbrace m\in M\mid \forall f\in Hom_A(M,S\colon\text{simple}),\ f(m)=0\rbrace
+$$</p>
+<p>が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[<a href="https://ankailue.github.io/primary_ideal/">https://ankailue.github.io/primary_ideal/</a>]を参照.)</p>
+<p>当然 $S\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり).</p>
+<p>先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す.</p>
+<p>$M\in modA\colon$ semisimpleとする.</p>
+<p>$L\subset M$ がsimpleであれば示すべきことはないので $K\in L$ が取れる. ここでsemisimple性より $M=L\oplus L&rsquo;=K\oplus K&rsquo;$ と書ける.</p>
+<p>$J=L\cap K&rsquo;$ とすると $L=K\oplus J$ と書けるので良い(元を取れば分かる).</p>
+<p>semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう:
+<img src="/images/ASS_3.3.PNG" alt="description of the image"></p>
+<p>ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple.</p>
+<p>ここで $P\in modA\colon$ projectiveを直既約として取ると $P/radP$ はsimpleである. この証明にはprojective coverの存在を使うとうまくいく(一般にはこれは存在しない, 局所ネーター環やアルティン環上の有限生成加群に対しては存在する). 実際simpleでないとすると, semisimpleではあるので $P/radP=N\oplus M$ と書ける.</p>
+<p>ここで $N$ 及び $M$ のprojective coverを $P(N), P(M)$ と書くと $P\to P/radP$ はprojective coverだから $P=P(N)\oplus P(M)$ であるから直既約に矛盾.</p>
+<p>↑いつか所定義と示すべきことをちゃんとやってまとめなおす.</p>
 </div>
         <div class="singleRightBar"><div class="rightBar">
     今のところほぼ院試関係の投稿で尽くされているが, 院試が終わり次第専門の話をしたい(algebraのcategoryを見てください)
