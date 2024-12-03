@@ -63,22 +63,67 @@
 
         <div class="mainContent">
             
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['$$', '$$']
+        ]
+      }      
+    };
+  </script>
 
-<div class="list"> 
-     
+  
 
+<div class="single">
+    
+    <div class="singleHead">
+        <div class="singleHeadText">
+            <h1 class="singleHeadTitle">名大多元数理過去問</h1>
+            <p class="singleHeadDesc">2012年午後大門1</p>
+            <div class="singleHeadDetail">
+                <img src="/images/ava.png" alt="" class="singleAvatar">
+                <span>
+                    
+                    <a href="https://ankailue.github.io/categories/%E9%99%A2%E8%A9%A6/" class="singleCategory">院試</a>
+                    
+                </span>
+            </div>
+            <time>2024-12-01 14:08:13 &#43;0900 JST</time>
+        </div>
+        <img src="/images/2012_B_1.PNG" alt=名大多元数理過去問 class="singleHeadImg">
+    </div>
+    <div class="singleBottom">
+        <div class="singleContent"><p><img src="/images/2012_B_1.PNG" alt="description of the image"></p>
+<p>(1)
+$f$ 及び $g$ の行列表示を $A,B$ とする. $I$ を単位行列とすると $g\circ f\circ g^{-1}\circ f= id_V$ より $BAB^{-1}A=I$ 故:
+$$
+det(BAB^{-1}A)=det(A)^2=1\ \therefore det(A)\neq 0
+$$
+であり $A$ は正則で $f$ は全単射($A^{-1}=BAB^{-1}$).</p>
+<p>(2)
+$\lambda, x$ を $A$ の固有値と其れに対する固有ベクトルとする. $\lambda=0$ と仮定すると:
+$$
+\mathbf{0}\neq x=A^{-1}Ax=A^{-1}\lambda x=\mathbf{0}
+$$
+となり矛盾. 次に $A^{-1}$ の固有値として $\lambda^{-1}$ が取れることを示す:
+$$
+A^{-1}x=\lambda^{-1}A^{-1}\lambda x=\lambda^{-1}A^{-1}Ax=\lambda^{-1}x
+$$
+より良い. 所で相似な行列の固有値は等しいため $A$ は $\lambda^{-1}$ を固有値に持つ. 実際, $B$ は正則行列より固有多項式 $\varphi_{BAB^{-1}}(\lambda)$ を考えると:
+$$
+\varphi_{BAB^{-1}}(\lambda)=det(BAB^{-1}-\lambda I)=det(B)det(A-\lambda I)det(B^{-1})=\varphi_{A}(\lambda)
+$$
+であり固有多項式が一致する.</p>
 </div>
-
+        <div class="singleRightBar"><div class="rightBar">
+    今のところほぼ院試関係の投稿で尽くされているが, 院試が終わり次第専門の話をしたい(algebraのcategoryを見てください)
+</div></div>
+    </div>    
+</div>
 
 
         </div>

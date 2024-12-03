@@ -6,14 +6,21 @@
     <description>Recent content on tiltingLife blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2024 12:55:22 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 17:34:31 +0900</lastBuildDate>
     <atom:link href="https://ankailue.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>relationship between projecives and simples</title>
-      <link>https://ankailue.github.io/2024_11_28/</link>
-      <pubDate>Thu, 28 Nov 2024 12:55:22 +0900</pubDate>
-      <guid>https://ankailue.github.io/2024_11_28/</guid>
-      <description>有限次元多元環の表現論において常識である:&#xA;$$\lbrace \text{projective module}\rbrace\leftrightarrow\lbrace \text{simple module}\rbrace $$&#xA;を説明する( $A$ をf.d. 多元環とする). 以降 $M\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする.&#xA;余談だが極大部分加群によるquotientがsimpleになることから:&#xA;$$ radM=\lbrace m\in M\mid \forall f\in Hom_A(M,S\colon\text{simple}),\ f(m)=0\rbrace $$&#xA;が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[https://ankailue.github.io/primary_ideal/]を参照.)&#xA;当然 $S\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり).&#xA;先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す.&#xA;$M\in modA\colon$ semisimpleとする.&#xA;$L\subset M$ がsimpleであれば示すべきことはないので $K\in L$ が取れる. ここでsemisimple性より $M=L\oplus L&amp;rsquo;=K\oplus K&amp;rsquo;$ と書ける.&#xA;$J=L\cap K&amp;rsquo;$ とすると $L=K\oplus J$ と書けるので良い(元を取れば分かる).&#xA;semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう: ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple.</description>
+      <title>東大数理科学過去問</title>
+      <link>https://ankailue.github.io/r4_3/</link>
+      <pubDate>Tue, 03 Dec 2024 17:34:31 +0900</pubDate>
+      <guid>https://ankailue.github.io/r4_3/</guid>
+      <description>指南書:&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&#xA;$$ I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx $$ とすると: $$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{1}{2}Re(I_1-I_2) $$ である. 積分経路 $C_+$ を実数直線を通る上半円とする.&#xA;所謂, ジョルダンの不等式($\frac{2}{\pi}\le\frac{sin\theta}{\theta}\le 1\ where\ 0&amp;lt;\theta\le\frac{\pi}{2}$)から $a\ge0$ の時 ($R&amp;gt;0$): $$ \left|\int_{0}^\pi \frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\ d\theta\right|\le \int_{0}^\pi \left|\frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\right|\ d\theta $$&#xA;$$ \le \int_{0}^\pi \frac{e^{-aR\sin\theta}}{R}\ d\theta\le2\int_{0}^\frac{\pi}{2} \frac{e^{-aR\frac{2\theta}{\pi}}}{R}\ d\theta=\frac{1}{Re^{\frac{2aR}{\pi}}}\int_0^{\pi} e^{-\theta}\ d\theta\to0\ (R\to \infty) $$&#xA;故:&#xA;$$ I_1 =\int_{C_+}\frac{e^{aiz}}{z^2}\ dz=\pi iRes(\frac{e^{aiz}}{z^2},0)=-\pi a $$&#xA;同様に $b\ge0$ なら: $$ I_2=-\pi b $$&#xA;故に: $$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(b-a) $$ 同様に $a&amp;lt;0$ の時, $ax=-ax\ (a\neq0)$ と変換すると(下半円を選んでもいいのだが記述がめんどくさいので初等的な変形を行った): $$ I_1=-\int_\infty^{-\infty}\frac{e^{-aix}}{x^2}\ dx=\int_{C_+}\frac{e^{-aiz}}{z^2}\ dz=\pi iRes(\frac{e^{-aiz}}{z^2},0)=a\pi $$ また $b&amp;lt;0$ に対しても同様に: $$ I_2=b\pi $$ 以上より: $$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(|b|-|a|) $$</description>
+    </item>
+    <item>
+      <title>名大多元数理過去問</title>
+      <link>https://ankailue.github.io/2012_b_1/</link>
+      <pubDate>Sun, 01 Dec 2024 14:08:13 +0900</pubDate>
+      <guid>https://ankailue.github.io/2012_b_1/</guid>
+      <description>(1) $f$ 及び $g$ の行列表示を $A,B$ とする. $I$ を単位行列とすると $g\circ f\circ g^{-1}\circ f= id_V$ より $BAB^{-1}A=I$ 故: $$ det(BAB^{-1}A)=det(A)^2=1\ \therefore det(A)\neq 0 $$ であり $A$ は正則で $f$ は全単射($A^{-1}=BAB^{-1}$).&#xA;(2) $\lambda, x$ を $A$ の固有値と其れに対する固有ベクトルとする. $\lambda=0$ と仮定すると: $$ \mathbf{0}\neq x=A^{-1}Ax=A^{-1}\lambda x=\mathbf{0} $$ となり矛盾. 次に $A^{-1}$ の固有値として $\lambda^{-1}$ が取れることを示す: $$ A^{-1}x=\lambda^{-1}A^{-1}\lambda x=\lambda^{-1}A^{-1}Ax=\lambda^{-1}x $$ より良い. 所で相似な行列の固有値は等しいため $A$ は $\lambda^{-1}$ を固有値に持つ. 実際, $B$ は正則行列より固有多項式 $\varphi_{BAB^{-1}}(\lambda)$ を考えると: $$ \varphi_{BAB^{-1}}(\lambda)=det(BAB^{-1}-\lambda I)=det(B)det(A-\lambda I)det(B^{-1})=\varphi_{A}(\lambda) $$ であり固有多項式が一致する.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
@@ -27,7 +34,7 @@
       <link>https://ankailue.github.io/r2_12/</link>
       <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
       <guid>https://ankailue.github.io/r2_12/</guid>
-      <description>東大院試の過去問に関しては完全版↓&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;がネットに転がっているので以降追加することは(多分)ないであろう.</description>
+      <description>東大院試の過去問に関しては完全版:&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;がネットに転がっているので以降追加することは(多分)ないであろう.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>

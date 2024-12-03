@@ -6,15 +6,8 @@
     <description>Recent content in Algebra on tiltingLife blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2024 12:55:22 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 00:57:27 +0900</lastBuildDate>
     <atom:link href="https://ankailue.github.io/categories/algebra/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>relationship between projecives and simples</title>
-      <link>https://ankailue.github.io/2024_11_28/</link>
-      <pubDate>Thu, 28 Nov 2024 12:55:22 +0900</pubDate>
-      <guid>https://ankailue.github.io/2024_11_28/</guid>
-      <description>有限次元多元環の表現論において常識である:&#xA;$$\lbrace \text{projective module}\rbrace\leftrightarrow\lbrace \text{simple module}\rbrace $$&#xA;を説明する( $A$ をf.d. 多元環とする). 以降 $M\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする.&#xA;余談だが極大部分加群によるquotientがsimpleになることから:&#xA;$$ radM=\lbrace m\in M\mid \forall f\in Hom_A(M,S\colon\text{simple}),\ f(m)=0\rbrace $$&#xA;が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[https://ankailue.github.io/primary_ideal/]を参照.)&#xA;当然 $S\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり).&#xA;先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す.&#xA;$M\in modA\colon$ semisimpleとする.&#xA;$L\subset M$ がsimpleであれば示すべきことはないので $K\in L$ が取れる. ここでsemisimple性より $M=L\oplus L&amp;rsquo;=K\oplus K&amp;rsquo;$ と書ける.&#xA;$J=L\cap K&amp;rsquo;$ とすると $L=K\oplus J$ と書けるので良い(元を取れば分かる).&#xA;semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう: ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple.</description>
-    </item>
     <item>
       <title>良い部分圏の濃度</title>
       <link>https://ankailue.github.io/2024_11_24/</link>
