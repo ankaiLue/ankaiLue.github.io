@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tiltingLife blog</title>
-    <link>https://ankailue.github.io/</link>
-    <description>Recent content on tiltingLife blog</description>
+    <title>脳brain blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 脳brain blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Dec 2024 17:34:31 +0900</lastBuildDate>
-    <atom:link href="https://ankailue.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>東大数理科学過去問</title>
-      <link>https://ankailue.github.io/r4_3/</link>
+      <link>http://localhost:1313/r4_3/</link>
       <pubDate>Tue, 03 Dec 2024 17:34:31 +0900</pubDate>
-      <guid>https://ankailue.github.io/r4_3/</guid>
-      <description>指南書:&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&#xA;$$ I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx $$ とすると: $$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{1}{2}Re(I_1-I_2) $$ である. 積分経路 $C_+$ を実数直線を通る上半円とする.&#xA;所謂, ジョルダンの不等式($\frac{2}{\pi}\le\frac{sin\theta}{\theta}\le 1\ where\ 0&amp;lt;\theta\le\frac{\pi}{2}$)から $a\ge0$ の時 ($R&amp;gt;0$): $$ \left|\int_{0}^\pi \frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\ d\theta\right|\le \int_{0}^\pi \left|\frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\right|\ d\theta $$&#xA;$$ \le \int_{0}^\pi \frac{e^{-aR\sin\theta}}{R}\ d\theta\le2\int_{0}^\frac{\pi}{2} \frac{e^{-aR\frac{2\theta}{\pi}}}{R}\ d\theta=\frac{1}{Re^{\frac{2aR}{\pi}}}\int_0^{\pi} e^{-\theta}\ d\theta\to0\ (R\to \infty) $$&#xA;故:&#xA;$$ I_1 =\int_{C_+}\frac{e^{aiz}}{z^2}\ dz=\pi iRes(\frac{e^{aiz}}{z^2},0)=-\pi a $$&#xA;同様に $b\ge0$ なら: $$ I_2=-\pi b $$&#xA;故に: $$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(b-a) $$ 同様に $a&amp;lt;0$ の時, $ax=-ax\ (a\neq0)$ と変換すると(下半円を選んでもいいのだが記述がめんどくさいので初等的な変形を行った): $$ I_1=-\int_\infty^{-\infty}\frac{e^{-aix}}{x^2}\ dx=\int_{C_+}\frac{e^{-aiz}}{z^2}\ dz=\pi iRes(\frac{e^{-aiz}}{z^2},0)=a\pi $$ また $b&amp;lt;0$ に対しても同様に: $$ I_2=b\pi $$ 以上より: $$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(|b|-|a|) $$</description>
+      <guid>http://localhost:1313/r4_3/</guid>
+      <description>指南書:&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&#xA;$$ I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx $$&#xA;とすると:&#xA;$$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{1}{2}Re(I_1-I_2) $$&#xA;である. 積分経路 $C_+$ を実数直線を通る上半円とする.&#xA;所謂, ジョルダンの不等式($\frac{2}{\pi}\le\frac{sin\theta}{\theta}\le 1\ where\ 0&amp;lt;\theta\le\frac{\pi}{2}$)から $a\ge0$ の時 ($R&amp;gt;0$):&#xA;$$ \left|\int_{0}^\pi \frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\ d\theta\right|\le \int_{0}^\pi \left|\frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\right|\ d\theta $$&#xA;$$ \le \int_{0}^\pi \frac{e^{-aR\sin\theta}}{R}\ d\theta\le2\int_{0}^\frac{\pi}{2} \frac{e^{-aR\frac{2\theta}{\pi}}}{R}\ d\theta=\frac{1}{Re^{\frac{2aR}{\pi}}}\int_0^{\pi} e^{-\theta}\ d\theta\to0\ (R\to \infty) $$&#xA;故:&#xA;$$ I_1 =\int_{C_+}\frac{e^{aiz}}{z^2}\ dz=\pi iRes(\frac{e^{aiz}}{z^2},0)=-\pi a $$&#xA;同様に $b\ge0$ なら:&#xA;$$ I_2=-\pi b $$&#xA;故に:&#xA;$$ \int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(b-a) $$</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2012_b_1/</link>
+      <link>http://localhost:1313/2012_b_1/</link>
       <pubDate>Sun, 01 Dec 2024 14:08:13 +0900</pubDate>
-      <guid>https://ankailue.github.io/2012_b_1/</guid>
+      <guid>http://localhost:1313/2012_b_1/</guid>
       <description>(1) $f$ 及び $g$ の行列表示を $A,B$ とする. $I$ を単位行列とすると $g\circ f\circ g^{-1}\circ f= id_V$ より $BAB^{-1}A=I$ 故: $$ det(BAB^{-1}A)=det(A)^2=1\ \therefore det(A)\neq 0 $$ であり $A$ は正則で $f$ は全単射($A^{-1}=BAB^{-1}$).&#xA;(2) $\lambda, x$ を $A$ の固有値と其れに対する固有ベクトルとする. $\lambda=0$ と仮定すると: $$ \mathbf{0}\neq x=A^{-1}Ax=A^{-1}\lambda x=\mathbf{0} $$ となり矛盾. 次に $A^{-1}$ の固有値として $\lambda^{-1}$ が取れることを示す: $$ A^{-1}x=\lambda^{-1}A^{-1}\lambda x=\lambda^{-1}A^{-1}Ax=\lambda^{-1}x $$ より良い. 所で相似な行列の固有値は等しいため $A$ は $\lambda^{-1}$ を固有値に持つ. 実際, $B$ は正則行列より固有多項式 $\varphi_{BAB^{-1}}(\lambda)$ を考えると: $$ \varphi_{BAB^{-1}}(\lambda)=det(BAB^{-1}-\lambda I)=det(B)det(A-\lambda I)det(B^{-1})=\varphi_{A}(\lambda) $$ であり固有多項式が一致する.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2020_b_123/</link>
+      <link>http://localhost:1313/2020_b_123/</link>
       <pubDate>Wed, 27 Nov 2024 20:50:43 +0900</pubDate>
-      <guid>https://ankailue.github.io/2020_b_123/</guid>
+      <guid>http://localhost:1313/2020_b_123/</guid>
       <description>2020年午後の部を最後の位相空間論以外やった、一番の自明な議論と留数の逆経路の計算は(清書がめんどくさかったので)省いた. 微分と積分の交換条件を確認できるサイトを添付しておく:&#xA;[https://mathlandscape.com/int-diff-interchange/]</description>
     </item>
     <item>
       <title>東大数理科学過去問</title>
-      <link>https://ankailue.github.io/r2_12/</link>
+      <link>http://localhost:1313/r2_12/</link>
       <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
-      <guid>https://ankailue.github.io/r2_12/</guid>
+      <guid>http://localhost:1313/r2_12/</guid>
       <description>東大院試の過去問に関しては完全版:&#xA;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&#xA;がネットに転がっているので以降追加することは(多分)ないであろう.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2015_1/</link>
+      <link>http://localhost:1313/2015_1/</link>
       <pubDate>Tue, 26 Nov 2024 18:31:48 +0900</pubDate>
-      <guid>https://ankailue.github.io/2015_1/</guid>
+      <guid>http://localhost:1313/2015_1/</guid>
       <description>表現行列と固有値に関する問題である.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2014_3_1/</link>
+      <link>http://localhost:1313/2014_3_1/</link>
       <pubDate>Sun, 24 Nov 2024 09:45:04 +0900</pubDate>
-      <guid>https://ankailue.github.io/2014_3_1/</guid>
+      <guid>http://localhost:1313/2014_3_1/</guid>
       <description>極値判定法の最も簡単な形の例である.</description>
     </item>
     <item>
       <title>良い部分圏の濃度</title>
-      <link>https://ankailue.github.io/2024_11_24/</link>
+      <link>http://localhost:1313/2024_11_24/</link>
       <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
-      <guid>https://ankailue.github.io/2024_11_24/</guid>
+      <guid>http://localhost:1313/2024_11_24/</guid>
       <description>多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である. そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&#xA;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&#xA;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがright $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&#xA;ここで次の記法を用いる.&#xA;$wideA\colon$ wide subcategoryの集まり.&#xA;$torsA\colon$ torsion classの集まり.&#xA;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategoryの集まり.&#xA;$f$-$torsA\subset torsA\colon$ functorially finiteなtorsion classの集まり.&#xA;この時次が成り立つ:&#xA;$$|wideA| \le |torsA|$$&#xA;$$|f\text{-}torsA| \le |f\text{-}wideA|$$&#xA;$$f\text{-}torsA \leftrightarrow \lbrace W\in f\text{-}wideA \mid filt(gen(W))\in f\text{-}torsA\rbrace $$&#xA;参考文献: F.</description>
     </item>
     <item>
       <title>名大多元数理過去問</title>
-      <link>https://ankailue.github.io/2023_1_3/</link>
+      <link>http://localhost:1313/2023_1_3/</link>
       <pubDate>Fri, 15 Nov 2024 23:37:26 +0900</pubDate>
-      <guid>https://ankailue.github.io/2023_1_3/</guid>
+      <guid>http://localhost:1313/2023_1_3/</guid>
       <description></description>
     </item>
     <item>
       <title>準素イデアルについて</title>
-      <link>https://ankailue.github.io/primary_ideal/</link>
+      <link>http://localhost:1313/primary_ideal/</link>
       <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
-      <guid>https://ankailue.github.io/primary_ideal/</guid>
-      <description>準素イデアルの定義ってどんなものを採用してますか?&#xA;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&#xA;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&#xA;所でAssとかも松村とかの定義はあんまり好みじゃなくて.&#xA;$M\in\mathrm{mod}A$とする. この時, $M$のAssociated primeを; $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$&#xA;とした方が好きです.　こうすると加群の埋め込みで統一出来てsimpleみたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていうinj.が取れて合成; $$A/\mathfrak{p}\to N\hookrightarrow M$$ を考えたらいいですね.&#xA;良い証明 ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なのでfiltrationに出てくるprimeは極大で加群的に見たら$A/\mathfrak{p}_i$はsimpleだから組成列になってて分かります. 逆も $A/\mathrm{rad}A$ がsemisimpleなので良いです(ちゃんというとradicalは冪零なので $A\supset\mathrm{rad}A\supset\dots\supset\mathrm{rad}^nA=0$ でこの組成因子はsemisimpleになるから(semisimple上の加群なので)).&#xA;準素イデアル分解の1st uni. thm.も加群レベルですぐ見れて;&#xA;$N=\bigcap N_i$をirredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&#xA;irredundantだから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ がinj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&#xA;一応置いておく(これは元を取っている;;) あと短完全列でAssがSuppみたいに振舞うのもpull back取ったらすぐわかります.</description>
+      <guid>http://localhost:1313/primary_ideal/</guid>
+      <description>準素イデアルの定義ってどんなものを採用してますか?&#xA;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&#xA;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&#xA;所で Ass とかも松村とかの定義はあんまり好みじゃなくて.&#xA;$M\in\mathrm{mod}A$とする. この時, $M$のAssociated primeを; $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$&#xA;とした方が好きです.　こうすると加群の埋め込みで統一出来て simple みたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていう inj.が取れて合成; $$A/\mathfrak{p}\to N\hookrightarrow M$$ を考えたらいいですね.&#xA;良い証明 ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なので filtration に出てくる prime は極大で加群的に見たら$A/\mathfrak{p}_i$は simple だから組成列になってて分かります. 逆も $A/\mathrm{rad}A$ が semisimple なので良いです(ちゃんというと radical は冪零なので $A\supset\mathrm{rad}A\supset\dots\supset\mathrm{rad}^nA=0$ でこの組成因子は semisimple になるから(semisimple 上の加群なので)).&#xA;準素イデアル分解の 1st uni. thm.も加群レベルですぐ見れて;&#xA;$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</description>
     </item>
     <item>
       <title>このサイトについて</title>
-      <link>https://ankailue.github.io/how_to_website/</link>
+      <link>http://localhost:1313/how_to_website/</link>
       <pubDate>Thu, 02 May 2024 13:17:18 +0900</pubDate>
-      <guid>https://ankailue.github.io/how_to_website/</guid>
-      <description>個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのとGO言語を触ったことがあったのでhugoというツールを使いました。&#xA;公式ウェブサイト&#xA;Headless CMSとか使ってジャムスタックなサイトつくろうかな～とか思って, ReactとContentfulで結構なところまで実装したのでやる気が戻ったらサイト移行の可能性があります(Hugo + Headless CMSみたいな選択肢もあります).&#xA;Static SiteもStatic Siteで良さがあるのでしばらくは運用していこうと思いますが&amp;hellip;&#xA;あと, Markdown記法でこの記事書いているのですが, Markdown浅すぎてあんま活用できてないです.&#xA;というかいま記事書いてて思ったんですけど, 反映早くて滅茶苦茶いいっすね.</description>
+      <guid>http://localhost:1313/how_to_website/</guid>
+      <description>個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのと GO 言語を触ったことがあったので hugo というツールを使いました。&#xA;公式ウェブサイト&#xA;Headless CMS とか使ってジャムスタックなサイトつくろうかな～とか思って, React と Contentful で結構なところまで実装したのでやる気が戻ったらサイト移行の可能性があります(Hugo + Headless CMS みたいな選択肢もあります).&#xA;Static Site も Static Site で良さがあるのでしばらくは運用していこうと思いますが&amp;hellip;&#xA;あと, Markdown 記法でこの記事書いているのですが, Markdown 浅すぎてあんま活用できてないです.&#xA;というかいま記事書いてて思ったんですけど, 反映早くて滅茶苦茶いいっすね.</description>
     </item>
     <item>
       <title>テストです</title>
-      <link>https://ankailue.github.io/test/</link>
+      <link>http://localhost:1313/test/</link>
       <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
-      <guid>https://ankailue.github.io/test/</guid>
+      <guid>http://localhost:1313/test/</guid>
       <description>見出し この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.</description>
     </item>
   </channel>

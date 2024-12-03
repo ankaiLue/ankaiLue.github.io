@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-JFPQ8NT2FX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFPQ8NT2FX');
+</script>
 <head>
     <link rel="icon" href="/images/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
-    <title>tiltingLife Blog</title>
+    <title>脳brain Blog</title>
 </head>
 <body>
     
@@ -14,7 +22,7 @@
         
 <div class="navbar">
     <div class="logo">
-        <a href="/">tiltingLife blog</a>
+        <a href="/">脳brain blog</a>
     </div>
     <div class="links">
         <div class="toggle">
@@ -88,7 +96,7 @@
                 <img src="/images/ava.png" alt="" class="singleAvatar">
                 <span>
                     
-                    <a href="https://ankailue.github.io/categories/math/" class="singleCategory">math</a>
+                    <a href="http://localhost:1313/categories/math/" class="singleCategory">math</a>
                     
                 </span>
             </div>
@@ -100,21 +108,21 @@
         <div class="singleContent"><p>準素イデアルの定義ってどんなものを採用してますか?</p>
 <p>私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.</p>
 <p>なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.</p>
-<p>所でAssとかも松村とかの定義はあんまり好みじゃなくて.</p>
+<p>所で Ass とかも松村とかの定義はあんまり好みじゃなくて.</p>
 <p>$M\in\mathrm{mod}A$とする. この時, $M$の<strong>Associated prime</strong>を;
 $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$</p>
-<p>とした方が好きです.　こうすると加群の埋め込みで統一出来てsimpleみたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていうinj.が取れて合成;
+<p>とした方が好きです.　こうすると加群の埋め込みで統一出来て simple みたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていう inj.が取れて合成;
 $$A/\mathfrak{p}\to N\hookrightarrow M$$
 を考えたらいいですね.</p>
 <h2 id="良い証明">良い証明</h2>
 <p><img src="/images/prime_fil.PNG" alt="description of the image"></p>
-<p>ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なのでfiltrationに出てくるprimeは極大で加群的に見たら$A/\mathfrak{p}_i$はsimpleだから組成列になってて分かります. 逆も $A/\mathrm{rad}A$ がsemisimpleなので良いです(ちゃんというとradicalは冪零なので $A\supset\mathrm{rad}A\supset\dots\supset\mathrm{rad}^nA=0$ でこの組成因子はsemisimpleになるから(semisimple上の加群なので)).</p>
-<p>準素イデアル分解の1st uni. thm.も加群レベルですぐ見れて;</p>
-<p>$N=\bigcap N_i$をirredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
-<p>irredundantだから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ がinj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
+<p>ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なので filtration に出てくる prime は極大で加群的に見たら$A/\mathfrak{p}_i$は simple だから組成列になってて分かります. 逆も $A/\mathrm{rad}A$ が semisimple なので良いです(ちゃんというと radical は冪零なので $A\supset\mathrm{rad}A\supset\dots\supset\mathrm{rad}^nA=0$ でこの組成因子は semisimple になるから(semisimple 上の加群なので)).</p>
+<p>準素イデアル分解の 1st uni. thm.も加群レベルですぐ見れて;</p>
+<p>$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
+<p>irredundant だから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ が inj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
 <p>一応置いておく(これは元を取っている;;)
 <img src="/images/lemma_primary.PNG" alt="description of the image"></p>
-<p>あと短完全列でAssがSuppみたいに振舞うのもpull back取ったらすぐわかります.</p>
+<p>あと短完全列で Ass が Supp みたいに振舞うのも pull back 取ったらすぐわかります.</p>
 </div>
         <div class="singleRightBar"><div class="rightBar">
     今のところほぼ院試関係の投稿で尽くされているが, 院試が終わり次第専門の話をしたい(algebraのcategoryを見てください)
@@ -129,7 +137,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 
         <div class="footer">
     <div class="footerLinks">
-        <a href="/">tiltingLife dev</a> |
+        <a href="/">脳brain dev</a> |
         <a href="/categories">categories</a> |
         <a href="/sitemap.xml">sitemap</a>
     </div>
